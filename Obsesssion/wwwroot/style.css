@@ -17293,56 +17293,56 @@ img.lazy:not([src]) {
 }
 
 #header {
-  --cnvs-sticky-header-height:	var(--cnvs-header-height);
-  --cnvs-header-border-color:	rgba(var(--cnvs-contrast-rgb), .1);
-  --cnvs-header-transparent-border-color: rgba(var(--cnvs-contrast-rgb), .1);
-  --cnvs-primary-menu-padding-x:	15px;
-  /*  Floating Header */
-  --cnvs-header-floating-top-offset:	60px;
-  --cnvs-header-floating-padding:	30px;
-  /*  Side Header */
-  --cnvs-side-header-padding-gutters:	30px;
-  /*  Primary Menu */
-  --cnvs-primary-menu-color:	var(--cnvs-contrast-900);
-  --cnvs-primary-menu-hover-color: var(--cnvs-themecolor);
-  --cnvs-primary-menu-active-color:	var(--cnvs-primary-menu-hover-color);
-  --cnvs-primary-menu-font:	var(--cnvs-primary-font);
-  --cnvs-primary-menu-font-weight:	700;
-  --cnvs-primary-menu-font-size:	0.8125rem;
-  --cnvs-primary-menu-tt:	uppercase;
-  --cnvs-primary-menu-ls:	1px;
-  --cnvs-primary-menu-icon-size:	1rem;
-  --cnvs-primary-menu-icon-gap:	0.625rem;
-  --cnvs-primary-menu-hover-text-decoration: none;
-  --cnvs-primary-menu-hover-text-decoration-offset: 3px;
-  --cnvs-primary-menu-submenu-padding-x: 15px;
-  --cnvs-primary-menu-submenu-padding-y: 10px;
-  --cnvs-primary-menu-submenu-top-border: 2px solid var(--cnvs-themecolor);
-  --cnvs-primary-menu-submenu-width:	240px;
-  --cnvs-primary-menu-submenu-display-speed:	0.3s;
-  --cnvs-primary-menu-submenu-display-offset:	0.5rem;
-  --cnvs-primary-menu-submenu-font:	var(--cnvs-body-font);
-  --cnvs-primary-menu-submenu-font-size:	0.75rem;
-  --cnvs-primary-menu-submenu-font-weight:	600;
-  --cnvs-primary-menu-submenu-hover-font-weight: 700;
-  --cnvs-primary-menu-submenu-tt:	uppercase;
-  --cnvs-primary-menu-submenu-color:	var(--cnvs-contrast-900);
-  --cnvs-primary-menu-submenu-spacing:	0;
-  --cnvs-primary-menu-submenu-border:	1px solid rgba(var(--cnvs-contrast-rgb), 0.1);
-  --cnvs-primary-menu-submenu-hover-bg:	rgba(var(--cnvs-contrast-rgb), 0.025);
-  --cnvs-primary-menu-submenu-hover-color: var(--cnvs-primary-menu-active-color);
-  --cnvs-primary-menu-submenu-hover-padding-offset: 0.25rem;
-  --cnvs-primary-menu-submenu-subtitle-display: none;
-  --cnvs-primary-menu-submenu-subtitle-font-size: var(--cnvs-primary-menu-submenu-font-size);
-  --cnvs-primary-menu-submenu-subtitle-font-weight: 400;
-  --cnvs-primary-menu-submenu-subtitle-tt: none;
-  --cnvs-header-misc-icons-size:	1.125rem;
-  --cnvs-header-misc-icons-color:	var(--cnvs-primary-menu-color);
-  --cnvs-mega-menu-width-sm: 400px;
-  --cnvs-mobile-menu-off-canvas-width: 280px;
-  --cnvs-top-search-font-size:	2rem;
-  --cnvs-top-search-placeholder: var(--cnvs-contrast-600);
-  position: relative;
+    --cnvs-sticky-header-height: var(--cnvs-header-height);
+    --cnvs-header-border-color: rgba(var(--cnvs-contrast-rgb), .1);
+    --cnvs-header-transparent-border-color: rgba(var(--cnvs-contrast-rgb), .1);
+    --cnvs-primary-menu-padding-x: 15px;
+    /*  Floating Header */
+    --cnvs-header-floating-top-offset: 60px;
+    --cnvs-header-floating-padding: 30px;
+    /*  Side Header */
+    --cnvs-side-header-padding-gutters: 30px;
+    /*  Primary Menu */
+    --cnvs-primary-menu-color: var(--cnvs-contrast-900);
+    --cnvs-primary-menu-hover-color: var(--cnvs-themecolor);
+    --cnvs-primary-menu-active-color: var(--cnvs-primary-menu-hover-color);
+    --cnvs-primary-menu-font: var(--cnvs-primary-font);
+    --cnvs-primary-menu-font-weight: 700;
+    --cnvs-primary-menu-font-size: 0.8125rem;
+    --cnvs-primary-menu-tt: uppercase;
+    --cnvs-primary-menu-ls: 1px;
+    --cnvs-primary-menu-icon-size: 1rem;
+    --cnvs-primary-menu-icon-gap: 0.625rem;
+    --cnvs-primary-menu-hover-text-decoration: none;
+    --cnvs-primary-menu-hover-text-decoration-offset: 3px;
+    --cnvs-primary-menu-submenu-padding-x: 15px;
+    --cnvs-primary-menu-submenu-padding-y: 10px;
+    --cnvs-primary-menu-submenu-top-border: 2px solid var(--cnvs-themecolor);
+    --cnvs-primary-menu-submenu-width: 240px;
+    --cnvs-primary-menu-submenu-display-speed: 0.3s;
+    --cnvs-primary-menu-submenu-display-offset: 0.5rem;
+    --cnvs-primary-menu-submenu-font: var(--cnvs-body-font);
+    --cnvs-primary-menu-submenu-font-size: 0.75rem;
+    --cnvs-primary-menu-submenu-font-weight: 600;
+    --cnvs-primary-menu-submenu-hover-font-weight: 700;
+    --cnvs-primary-menu-submenu-tt: uppercase;
+    --cnvs-primary-menu-submenu-color: var(--cnvs-contrast-900);
+    --cnvs-primary-menu-submenu-spacing: 0;
+    --cnvs-primary-menu-submenu-border: 1px solid rgba(var(--cnvs-contrast-rgb), 0.1);
+    --cnvs-primary-menu-submenu-hover-bg: rgba(var(--cnvs-contrast-rgb), 0.025);
+    --cnvs-primary-menu-submenu-hover-color: var(--cnvs-primary-menu-active-color);
+    --cnvs-primary-menu-submenu-hover-padding-offset: 0.25rem;
+    --cnvs-primary-menu-submenu-subtitle-display: none;
+    --cnvs-primary-menu-submenu-subtitle-font-size: var(--cnvs-primary-menu-submenu-font-size);
+    --cnvs-primary-menu-submenu-subtitle-font-weight: 400;
+    --cnvs-primary-menu-submenu-subtitle-tt: none;
+    --cnvs-header-misc-icons-size: 1.125rem;
+    --cnvs-header-misc-icons-color: var(--cnvs-primary-menu-color);
+    --cnvs-mega-menu-width-sm: 400px;
+    --cnvs-mobile-menu-off-canvas-width: 280px;
+    --cnvs-top-search-font-size: 2rem;
+    --cnvs-top-search-placeholder: var(--cnvs-contrast-600);
+    position: relative;
 }
 #header-wrap {
   position: fixed;
